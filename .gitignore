@@ -6,3 +6,4 @@ brute
 maxchain
 __pycache__/
 .DS_Store
+code/arena_verifier.py

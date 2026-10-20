@@ -45,6 +45,7 @@ brew install nauty
 c++ -O3 -mcpu=native -std=c++17 -DWORDSIZE=64 -I/opt/homebrew/include \
     -o chain code/chain.cpp -L/opt/homebrew/lib -lnautyL1
 ./chain 16 13 14 7 out16 6                       # about 5 min on 6 cores (Apple M5)
+python3 code/fetch_verifier.py                   # the platform's public verifier
 uv run --with numpy --with sympy python code/realise.py out16/final.txt
 ```
 

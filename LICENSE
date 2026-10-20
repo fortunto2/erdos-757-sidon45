@@ -22,5 +22,5 @@ THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Results and documentation (results/, docs/, README.md): Creative Commons Attribution
 4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
 
-code/arena_verifier.py is the public EinsteinArena verifier for the problem
-"sidon-45-set", included unchanged so results can be re-scored.
+The EinsteinArena verifier is not included; code/fetch_verifier.py downloads it from
+the platform's public API.
