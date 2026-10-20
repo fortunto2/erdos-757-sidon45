@@ -17,7 +17,14 @@ points determine at least 5 distinct differences. The known bounds are
 3. A 14-point set with h = 8 that differs from Ma–Tang's set:
    `0 323 416 468 509 517 537 557 566 575 613 646 717 1018`.
 
-(18, 10) is open. A full search is estimated at about 300 core-hours.
+(18, 10) is open here. A follow-up search settles it and is under review.
+
+**Context (added 2026-10-20).** The general upper bound has since dropped to **5/9**. On
+2026-10-17 a reader of erdosproblemaday.com submitted a self-similar family of (4,5)-sets
+with 11 + 9K points and Sidon number 7 + 5K, which the site checked by machine. Its first
+finite set below 4/7 has 65 points (K = 6). Our results address the small end. Since
+(16, 9) is impossible, any (4,5)-set with h/n < 4/7 has at least 17 points, and an
+(18, 10) set is the only candidate below 19.
 
 ## Method in one paragraph
 
