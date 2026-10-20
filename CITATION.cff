@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use these results or code, please cite them as below."
+title: "Erdős Problem #757: no 16-point (4,5)-set with Sidon number 9, and the 14-point classification"
+abstract: >-
+  Computer-assisted results on Erdős Problem #757 (Tao's constant C_5b). Using the
+  3-AP hypergraph reduction of Ma and Tang (arXiv 2602.23282) and the Henning–Yeo
+  transversal bound, the only shapes that could beat the upper bound 4/7 within 18
+  points are (n,h) = (16,9) and (18,10). An exhaustive isomorph-free enumeration of
+  linear 3-graphs with a rank-based realisability test shows that no (4,5)-set with
+  (n,h) = (16,9) exists, and that every 14-point (4,5)-set with h = 8 has exactly 12
+  three-term progressions and one of 9 progression-hypergraph types.
+type: software
+authors:
+  - family-names: "Salavatov"
+    given-names: "Rustam"
+    alias: "fortunto2"
+    affiliation: "SuperDuperAI"
+keywords:
+  - Erdős problems
+  - Sidon sets
+  - additive combinatorics
+  - hypergraph transversals
+  - computer-assisted proof
+  - exhaustive enumeration
+  - nauty
+license: MIT
+repository-code: "https://github.com/fortunto2/erdos-757-sidon45"
+date-released: 2026-10-20
+version: "1.0.0"
+references:
+  - type: article
+    title: "Largest Sidon subsets in weak Sidon sets"
+    authors:
+      - family-names: "Ma"
+        given-names: "Jie"
+      - family-names: "Tang"
+        given-names: "Quanyu"
+    identifiers:
+      - type: other
+        value: "arXiv:2602.23282"
+  - type: article
+    title: "Affine Planes and Transversals in 3-Uniform Linear Hypergraphs"
+    authors:
+      - family-names: "Henning"
+        given-names: "Michael A."
+      - family-names: "Yeo"
+        given-names: "Anders"
+    journal: "Graphs and Combinatorics"
+    volume: 37
+    year: 2021

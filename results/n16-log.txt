@@ -1,0 +1,19 @@
+level k=1: 1 classes (raw 1)  m in [0,0] tau>=-8  t=0.0s | m0/t0:1
+level k=2: 1 classes (raw 1)  m in [0,0] tau>=-7  t=0.0s | m0/t0:1
+level k=3: 2 classes (raw 2)  m in [0,1] tau>=-6  t=0.0s | m0/t0:1 m1/t1:1
+level k=4: 2 classes (raw 2)  m in [0,2] tau>=-5  t=0.0s | m0/t0:1 m1/t1:1
+level k=5: 3 classes (raw 5)  m in [0,3] tau>=-4  t=0.0s | m0/t0:1 m1/t1:1 m2/t1:1
+level k=6: 6 classes (raw 10)  m in [0,4] tau>=-3  t=0.0s | m0/t0:1 m1/t1:1 m2/t1:1 m2/t2:1 m3/t2:1 m4/t2:1
+level k=7: 11 classes (raw 29)  m in [0,5] tau>=-2  t=0.0s | m0/t0:1 m1/t1:1 m2/t1:1 m2/t2:1 m3/t1:1 m3/t2:2 m4/t2:3 m5/t2:1
+level k=8: 24 classes (raw 94)  m in [0,6] tau>=-1  t=0.0s | m0/t0:1 m1/t1:1 m2/t1:1 m2/t2:1 m3/t1:1 m3/t2:3 m4/t2:6 m5/t2:4 m5/t3:2 m6/t2:1 m6/t3:3
+level k=9: 97 classes (raw 333)  m in [0,7] tau>=0  t=0.0s | m0/t0:1 m1/t1:1 m2/t1:1 m2/t2:1 m3/t1:1 m3/t2:3 m3/t3:1 m4/t1:1 m4/t2:8 m4/t3:2 m5/t2:9 m5/t3:9 m6/t2:5 m6/t3:25 m7/t2:1 m7/t3:28
+level k=10: 619 classes (raw 2376)  m in [1,8] tau>=1  t=0.0s | m1/t1:1 m2/t1:1 m2/t2:1 m3/t1:1 m3/t2:3 m3/t3:1 m4/t1:1 m4/t2:10 m4/t3:3 m5/t2:14 m5/t3:17 m6/t2:14 m6/t3:71 m7/t2:6 m7/t3:176 m7/t4:5 m8/t2:2 m8/t3:219 m8/t4:73
+level k=11: 7144 classes (raw 21139)  m in [3,9] tau>=2  t=0.0s | m3/t2:3 m3/t3:1 m4/t2:10 m4/t3:4 m5/t2:17 m5/t3:25 m6/t2:23 m6/t3:127 m6/t4:2 m7/t2:17 m7/t3:487 m7/t4:46 m8/t2:8 m8/t3:1200 m8/t4:641 m9/t2:2 m9/t3:1281 m9/t4:3250
+level k=12: 121143 classes (raw 221816)  m in [5,10] tau>=3  t=0.4s | m5/t3:28 m5/t4:2 m6/t3:164 m6/t4:14 m7/t3:800 m7/t4:173 m8/t3:2871 m8/t4:2372 m9/t3:5953 m9/t4:19388 m10/t3:5824 m10/t4:83333 m10/t5:221
+level k=13: 2532413 classes (raw 4711809)  m in [7,11] tau>=4  t=7.3s | m7/t4:335 m8/t4:4967 m8/t5:5 m9/t4:54482 m9/t5:201 m10/t4:405431 m10/t5:11308 m11/t4:1723490 m11/t5:332194
+level k=14: 33240040 classes (raw 62088863)  m in [9,12] tau>=5  t=150.9s | m9/t5:2132 m10/t5:88100 m11/t5:2444025 m12/t5:30705771 m12/t6:12
+level k=15: 6530370 classes (raw 16111544)  m in [11,13] tau>=6  t=776.9s | m11/t6:251 m12/t6:28918 m13/t6:6501201
+resumed level 14: 33240040
+level k=15: 6530370 classes (raw 16111544)  m in [11,13] tau>=6  t=104.9s | m11/t6:251 m12/t6:28918 m13/t6:6501201
+level k=16: 2 classes (raw 5)  m in [13,14] tau>=7  t=142.2s | m14/t7:2
+START=14 ./chain 16 13 14 7 out16 6  570.56s user 15.59s system 404% cpu 2:24.75 total

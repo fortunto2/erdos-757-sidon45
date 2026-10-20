@@ -1,0 +1,8 @@
+out*/
+*.bin
+chain
+dfs
+brute
+maxchain
+__pycache__/
+.DS_Store
