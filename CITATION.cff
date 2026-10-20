@@ -24,6 +24,7 @@ keywords:
   - exhaustive enumeration
   - nauty
 license: MIT
+doi: "10.5281/zenodo.23494596"
 repository-code: "https://github.com/fortunto2/erdos-757-sidon45"
 date-released: 2026-10-20
 version: "1.0.1"

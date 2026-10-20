@@ -1,5 +1,7 @@
 # Erdős Problem #757: no 16-point (4,5)-set with Sidon number 9
 
+[![DOI](https://zenodo.org/badge/1426742593.svg)](https://doi.org/10.5281/zenodo.23494596)
+
 Computer-assisted results on Erdős Problem #757, the constant C_5b in Tao's repository
 of optimisation constants. The constant is the largest c such that every (4,5)-set of
 n reals contains a Sidon subset of size c·n. A (4,5)-set is a set in which every 4
