@@ -97,7 +97,7 @@ static void extend_max(const G &g, std::vector<G> &out) {
       if (deg[v] + 1 > d) forbid |= 1u << v;
     std::vector<uint64_t> acc(W, ~0ull);
     if (need && T.size() % 64) acc[W - 1] = (1ull << (T.size() % 64)) - 1;
-    uint32_t chosen[8];
+    uint32_t chosen[16];  // was 8: overflow at degree 9 (unreached in runs)
     pick(g, k, pairs, S, W, need, d, 0, 0, acc, chosen, 0, forbid, out);
   }
 }
@@ -110,6 +110,7 @@ int main(int argc, char **argv) {
   N = atoi(argv[1]);
   MMIN = atoi(argv[2]);
   MMAX = atoi(argv[3]);
+  if (MMAX > G::MAXE) { fprintf(stderr, "MMAX %d exceeds edge capacity %d\n", MMAX, G::MAXE); return 2; }  // MAXE guard
   TAU = atoi(argv[4]);
   DCAP = atoi(argv[5]);
   std::string dir = argv[6];

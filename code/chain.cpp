@@ -31,7 +31,8 @@
 
 struct G {
   uint8_t k = 0, m = 0;
-  uint32_t e[18] = {0};
+  static constexpr int MAXE = 32;  // was 18: overflowed for m > 18 (n=22,23), found in maxchain-review.md
+  uint32_t e[MAXE] = {0};
   bool operator<(const G &o) const {
     if (m != o.m) return m < o.m;
     return memcmp(e, o.e, sizeof(uint32_t) * m) < 0;
@@ -169,7 +170,7 @@ static bool has_f7(const G &g) {
       for (int b = a + 1; b < t; b++)
         for (int d = b + 1; d < t; d++) {
           uint32_t P = (g.e[through[a]] | g.e[through[b]] | g.e[through[d]]) & ~cb;
-          uint32_t inside[18];
+          uint32_t inside[G::MAXE];
           int s = 0;
           for (int i = 0; i < g.m; i++)
             if (!(g.e[i] & cb) && (g.e[i] & ~P) == 0) inside[s++] = g.e[i];
@@ -322,6 +323,7 @@ int main(int argc, char **argv) {
   N = atoi(argv[1]);
   MMIN = atoi(argv[2]);
   MMAX = atoi(argv[3]);
+  if (MMAX > G::MAXE) { fprintf(stderr, "MMAX %d exceeds edge capacity %d\n", MMAX, G::MAXE); return 2; }  // MAXE guard
   TAU = atoi(argv[4]);
   std::string dir = argv[5];
   int P = argc > 6 ? atoi(argv[6]) : 1;
