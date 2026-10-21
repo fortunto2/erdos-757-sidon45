@@ -3,12 +3,13 @@ message: "If you use these results or code, please cite them as below."
 title: "Erdős Problem #757: no (4,5)-set with Sidon ratio below 4/7 on fewer than 25 points, and the 14-point classification"
 abstract: >-
   Computer-assisted results on Erdős Problem #757 (Tao's constant C_5b). Using the
-  3-AP hypergraph reduction of Ma and Tang (arXiv 2602.23282) and the Henning–Yeo
-  transversal bound, the only shapes that could beat the upper bound 4/7 within 18
-  points are (n,h) = (16,9) and (18,10). An exhaustive isomorph-free enumeration of
-  linear 3-graphs with a rank-based realisability test shows that no (4,5)-set with
-  (n,h) = (16,9) exists, and that every 14-point (4,5)-set with h = 8 has exactly 12
-  three-term progressions and one of 9 progression-hypergraph types.
+  3-AP hypergraph reduction of Ma and Tang (arXiv 2602.23282), exhaustive isomorph-free
+  enumerations of linear 3-graphs and an exact rank test for realisability, no
+  (4,5)-set has n = 16, h <= 9; n = 18, h <= 10; n = 20, h <= 11; n = 22, h <= 12; or
+  n = 23, h <= 13. By the Henning–Yeo transversal bound these are the only shapes with
+  n <= 24 below 4/7, so every (4,5)-set with Sidon ratio below 4/7 has at least 25
+  points (n = 16, 18, 20 are Henning–Yeo-free). Every 14-point (4,5)-set with h = 8 has
+  exactly 12 three-term progressions and one of 9 progression-hypergraph types.
 type: software
 authors:
   - family-names: "Salavatov"
@@ -26,8 +27,8 @@ keywords:
 license: MIT
 doi: "10.5281/zenodo.23494596"
 repository-code: "https://github.com/fortunto2/erdos-757-sidon45"
-date-released: 2026-10-20
-version: 1.1.0
+date-released: 2026-10-21
+version: 1.1.1
 references:
   - type: article
     title: "Largest Sidon subsets in weak Sidon sets"

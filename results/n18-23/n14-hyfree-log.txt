@@ -1,0 +1,16 @@
+window k=0: m in { 0 }
+window k=1: m in { 0 }
+window k=2: m in { 0 }
+window k=3: m in { 0 }
+window k=4: m in { 0 }
+window k=5: m in { 0 }
+window k=6: m in { 0 }
+window k=7: m in { 0 }
+window k=8: m in { 0 }
+window k=9: m in { 0 1 }
+window k=10: m in { 0 1 2 }
+window k=11: m in { 0 1 2 3 4 }
+window k=12: m in { 0 1 2 3 4 5 6 }
+window k=13: m in { 0 1 2 3 4 5 6 7 8 9 }
+window k=14: m in { 0 1 2 3 4 5 6 7 8 9 10 11 12 }
+level k=1: 1 classes (raw 1) tau>=-7 HY-violations=0 t=0.0s | m0/t0:1
