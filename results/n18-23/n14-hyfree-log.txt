@@ -1,3 +1,4 @@
+# ./maxchain 14 0 12 6 6 OUTDIR 4   (no Henning–Yeo: all m <= 12, cap 6 = trivial)
 window k=0: m in { 0 }
 window k=1: m in { 0 }
 window k=2: m in { 0 }
@@ -14,3 +15,16 @@ window k=12: m in { 0 1 2 3 4 5 6 }
 window k=13: m in { 0 1 2 3 4 5 6 7 8 9 }
 window k=14: m in { 0 1 2 3 4 5 6 7 8 9 10 11 12 }
 level k=1: 1 classes (raw 1) tau>=-7 HY-violations=0 t=0.0s | m0/t0:1
+level k=2: 1 classes (raw 1) tau>=-6 HY-violations=0 t=0.0s | m0/t0:1
+level k=3: 1 classes (raw 1) tau>=-5 HY-violations=0 t=0.0s | m0/t0:1
+level k=4: 1 classes (raw 1) tau>=-4 HY-violations=0 t=0.0s | m0/t0:1
+level k=5: 1 classes (raw 1) tau>=-3 HY-violations=0 t=0.0s | m0/t0:1
+level k=6: 1 classes (raw 1) tau>=-2 HY-violations=0 t=0.0s | m0/t0:1
+level k=7: 1 classes (raw 1) tau>=-1 HY-violations=0 t=0.0s | m0/t0:1
+level k=8: 1 classes (raw 1) tau>=0 HY-violations=0 t=0.0s | m0/t0:1
+level k=9: 1 classes (raw 28) tau>=1 HY-violations=0 t=0.0s | m1/t1:1
+level k=10: 1 classes (raw 15) tau>=2 HY-violations=0 t=0.0s | m2/t2:1
+level k=11: 5 classes (raw 207) tau>=3 HY-violations=0 t=0.0s | m3/t3:1 m4/t3:4
+level k=12: 17 classes (raw 1222) tau>=4 HY-violations=0 t=0.0s | m4/t4:1 m5/t4:2 m6/t4:14
+level k=13: 214 classes (raw 34324) tau>=5 HY-violations=0 t=0.4s | m8/t5:6 m9/t5:208
+level k=14: 61 classes (raw 378) tau>=6 HY-violations=0 t=0.5s | m12/t6:61
