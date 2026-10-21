@@ -297,6 +297,7 @@ static void extend(const G &g, std::vector<G> &out) {
 
 static void write_level(const std::string &path, const std::vector<G> &v) {
   FILE *f = fopen(path.c_str(), "wb");
+  if (!f) { perror(path.c_str()); exit(3); }  // missing OUTDIR used to segfault after level 1
   for (auto &g : v) fwrite(&g, sizeof(G), 1, f);
   fclose(f);
 }
