@@ -1,0 +1,2 @@
+loaded 4204760 classes at k=22 (sizeof G now 100)
+level k=23: 86094 classes (raw 171927) tau>=10 HY-violations=0 t=969.2s | m20/t10:152 m21/t10:85942

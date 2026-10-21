@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use these results or code, please cite them as below."
-title: "Erdős Problem #757: no 16-point (4,5)-set with Sidon number 9, and the 14-point classification"
+title: "Erdős Problem #757: no (4,5)-set with Sidon ratio below 4/7 on fewer than 25 points, and the 14-point classification"
 abstract: >-
   Computer-assisted results on Erdős Problem #757 (Tao's constant C_5b). Using the
   3-AP hypergraph reduction of Ma and Tang (arXiv 2602.23282) and the Henning–Yeo
@@ -27,7 +27,7 @@ license: MIT
 doi: "10.5281/zenodo.23494596"
 repository-code: "https://github.com/fortunto2/erdos-757-sidon45"
 date-released: 2026-10-20
-version: "1.0.1"
+version: 1.1.0
 references:
   - type: article
     title: "Largest Sidon subsets in weak Sidon sets"

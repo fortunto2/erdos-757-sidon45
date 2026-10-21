@@ -1,0 +1,37 @@
+window k=0: m in { 0 }
+window k=1: m in { 0 }
+window k=2: m in { 0 }
+window k=3: m in { 0 }
+window k=4: m in { 0 }
+window k=5: m in { 0 }
+window k=6: m in { 0 }
+window k=7: m in { 0 }
+window k=8: m in { 0 }
+window k=9: m in { 0 }
+window k=10: m in { 0 1 }
+window k=11: m in { 0 1 2 }
+window k=12: m in { 0 1 2 3 }
+window k=13: m in { 0 1 2 3 4 }
+window k=14: m in { 0 1 2 3 4 5 6 }
+window k=15: m in { 0 1 2 3 4 5 6 7 8 }
+window k=16: m in { 0 1 2 3 4 5 6 7 8 9 10 }
+window k=17: m in { 0 1 2 3 4 5 6 7 8 9 10 11 12 13 }
+window k=18: m in { 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 }
+level k=1: 1 classes (raw 1) tau>=-9 HY-violations=0 t=0.0s | m0/t0:1
+level k=2: 1 classes (raw 1) tau>=-8 HY-violations=0 t=0.0s | m0/t0:1
+level k=3: 1 classes (raw 1) tau>=-7 HY-violations=0 t=0.0s | m0/t0:1
+level k=4: 1 classes (raw 1) tau>=-6 HY-violations=0 t=0.0s | m0/t0:1
+level k=5: 1 classes (raw 1) tau>=-5 HY-violations=0 t=0.0s | m0/t0:1
+level k=6: 1 classes (raw 1) tau>=-4 HY-violations=0 t=0.0s | m0/t0:1
+level k=7: 1 classes (raw 1) tau>=-3 HY-violations=0 t=0.0s | m0/t0:1
+level k=8: 1 classes (raw 1) tau>=-2 HY-violations=0 t=0.0s | m0/t0:1
+level k=9: 1 classes (raw 1) tau>=-1 HY-violations=0 t=0.0s | m0/t0:1
+level k=10: 2 classes (raw 37) tau>=0 HY-violations=0 t=0.0s | m0/t0:1 m1/t1:1
+level k=11: 3 classes (raw 696) tau>=1 HY-violations=0 t=0.0s | m1/t1:1 m2/t1:1 m2/t2:1
+level k=12: 5 classes (raw 920) tau>=2 HY-violations=0 t=0.0s | m2/t2:1 m3/t2:3 m3/t3:1
+level k=13: 6 classes (raw 738) tau>=3 HY-violations=0 t=0.0s | m3/t3:1 m4/t3:4 m4/t4:1
+level k=14: 41 classes (raw 12101) tau>=4 HY-violations=0 t=0.1s | m4/t4:1 m5/t4:4 m6/t4:36
+level k=15: 280 classes (raw 79753) tau>=5 HY-violations=0 t=0.6s | m5/t5:1 m6/t5:2 m7/t5:17 m8/t5:260
+level k=16: 250 classes (raw 173496) tau>=6 HY-violations=0 t=6.6s | m9/t6:6 m10/t6:244
+level k=17: 80 classes (raw 1367) tau>=7 HY-violations=0 t=8.5s | m13/t7:80
+level k=18: 3 classes (raw 12) tau>=8 HY-violations=0 t=8.6s | m16/t8:3
